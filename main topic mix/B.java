@@ -24,7 +24,6 @@ public class B {
         b.show();
         b1.show();
         sc.close();
-
     }
     
 }

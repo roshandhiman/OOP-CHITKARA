@@ -12,7 +12,7 @@ public class E {
         Visitor v=new Visitor();
         Visitor v1=new Visitor();
         Visitor v2=new Visitor();
-        v2.show();
+        v1.show();
 
 
         
