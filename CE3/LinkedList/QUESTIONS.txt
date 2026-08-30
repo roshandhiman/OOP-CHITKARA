@@ -1,0 +1,398 @@
+Haan brooo 😭🔥 ab samjha main exactly kya chahiye.
+
+Tumhe ArrayList/LinkedList ke wahi same patterns nahi chahiye jaise:
+
+* max/min
+* frequency
+* duplicates
+* merge
+* rotate
+* search
+* basic add/remove
+
+Woh hum kar chuke hain.
+
+Ab chahiye CE3 ke actual exam mein naye combinations, jahan ArrayList/LinkedList ko String + logic + multiple operations ke saath mix kiya ho. Ye hidden-test type questions honge.
+
+🔥 NEW MIXED ARRAYLIST + LINKEDLIST SET
+
+Q1 — Words Starting With a Character ⭐ 5 marks
+
+Read N strings into an ArrayList<String> and a character ch.
+
+Print only those words that start with ch, preserving their original order.
+
+Input
+
+7
+apple banana application mango apricot orange ant
+a
+
+Output
+
+apple application apricot ant
+
+Tests: ArrayList<String>, charAt(), startsWith(), String + ArrayList.
+
+⸻
+
+Q2 — Longest String ⭐ 5 marks
+
+Read N strings into a LinkedList<String>.
+
+Find and print:
+
+* longest string
+* its index
+* its length
+
+If multiple strings have the same maximum length, print the first one.
+
+Input
+
+6
+cat elephant dog butterfly lion tiger
+
+Output
+
+Longest: butterfly
+Index: 3
+Length: 9
+
+⸻
+
+Q3 — Palindrome Words ⭐ 5 marks
+
+Read N strings into an ArrayList<String>.
+
+Print only the strings that are palindromes.
+
+Comparison should be case-insensitive.
+
+Input
+
+7
+madam hello Racecar apple level Java radar
+
+Output
+
+madam Racecar level radar
+
+Hint:
+
+String rev = new StringBuilder(word).reverse().toString();
+
+⸻
+
+🔴 Q4 — Student Name + Marks — 10 marks
+
+Maintain two ArrayLists:
+
+ArrayList<String> names
+ArrayList<Integer> marks
+
+Both have the same index representing the same student.
+
+Read N students.
+
+Print the student having the highest marks.
+
+Input
+
+5
+Aman 78
+Riya 92
+Karan 85
+Simran 92
+Raj 70
+
+Output
+
+Top Student: Riya
+Marks: 92
+Index: 1
+
+⚠️ If multiple students have the highest marks, print the first student.
+
+This is important because now you’re maintaining parallel ArrayLists.
+
+⸻
+
+🔴 Q5 — Remove Names Based on String Condition — 10 marks
+
+Read N names into a LinkedList<String>.
+
+Remove every name whose length is less than 5.
+
+Then print:
+
+* remaining names
+* number removed
+
+Input
+
+7
+Aman Rahul Raj Simran Karan Ali Priya
+
+Output
+
+Rahul Simran Karan Priya
+Removed: 3
+
+You’ll need to be careful while removing while traversing.
+
+⸻
+
+🔴 Q6 — Password Validator — 10 marks
+
+Read N passwords into an ArrayList<String>.
+
+A password is valid if:
+
+* length ≥ 8
+* contains at least one uppercase letter
+* contains at least one lowercase letter
+* contains at least one digit
+
+Print each password followed by:
+
+Valid
+
+or
+
+Invalid
+
+Input
+
+5
+Hello123
+hello123
+HELLO123
+HelloWorld
+Java@123
+
+Output
+
+Hello123: Valid
+hello123: Invalid
+HELLO123: Invalid
+HelloWorld: Invalid
+Java@123: Valid
+
+🔥 This is a very different type because ArrayList + String character checking.
+
+⸻
+
+🔴 Q7 — Convert Names to Uppercase — 10 marks
+
+Read N names into a LinkedList<String>.
+
+Modify every name so that:
+
+* first letter becomes uppercase
+* remaining letters become lowercase
+
+Input
+
+6
+rAhUl
+AMAN
+riYa
+sImRaN
+karan
+pRiYa
+
+Output
+
+Rahul Aman Riya Simran Karan Priya
+
+You’ll need:
+
+substring()
+toUpperCase()
+toLowerCase()
+
+⸻
+
+🔴 Q8 — Remove Consecutive Duplicate Elements — 10 marks
+
+⚠️ This is NOT normal duplicate removal.
+
+Remove an element only if it is immediately repeated.
+
+Input
+
+10
+10 10 20 30 30 30 40 20 20 50
+
+Output
+
+10 20 30 40 20 50
+
+Notice:
+
+10 10 → one 10
+30 30 30 → one 30
+20 ... 20 → both remain
+
+This is a completely different duplicate problem.
+
+⸻
+
+🔴 Q9 — Reverse Every String — 10 marks
+
+Read strings into an ArrayList<String>.
+
+Reverse each individual string but don’t reverse the order of the ArrayList.
+
+Input
+
+5
+hello java code world apple
+
+Output
+
+olleh avaj edoc dlrow elppa
+
+Before:
+
+[hello, java, code, world, apple]
+
+After:
+
+[olleh, avaj, edoc, dlrow, elppa]
+
+⸻
+
+🔴 Q10 — Two LinkedLists: Common Elements — 10 marks
+
+Read two LinkedList<Integer> objects.
+
+Print elements that occur in both lists, but print each common element only once and preserve the order from the first list.
+
+Input
+
+7
+10 20 30 40 50 60 70
+6
+30 10 80 50 90 20
+
+Output
+
+10 20 30 50
+
+Notice the order comes from the first list, not the second.
+
+⸻
+
+🔴 Q11 — Student Result Processor — 10 marks 🔥
+
+Read:
+
+name marks
+
+into two parallel ArrayLists.
+
+Then print:
+
+* names of students who passed (>= 40)
+* average marks
+* number of students above average
+
+Input
+
+6
+Aman 80
+Riya 35
+Karan 70
+Simran 90
+Raj 30
+Neha 60
+
+Output
+
+Passed Students: Aman Karan Simran Neha
+Average: 60.83
+Above Average: 3
+
+This combines:
+
+String
+ArrayList
+parallel arrays
+conditions
+sum
+average
+
+⸻
+
+🔥 Q12 — The Big One: Sentence Word Processor — 10 marks
+
+Read one complete sentence.
+
+Split it into words and store them in an ArrayList<String>.
+
+Then:
+
+1. Print number of words.
+2. Print longest word.
+3. Print shortest word.
+4. Print words starting with a vowel.
+5. Print the sentence with every word reversed.
+
+Input
+
+Java programming makes problem solving interesting
+
+Output
+
+Word Count: 6
+Longest: programming
+Shortest: Java
+Vowel Words: interesting
+Reversed: avaJ gnimmargorp sekam melborp gnivlos gnitseretni
+
+🔥 This is the type of question where they can easily create hidden cases.
+
+⸻
+
+🧠 These are MUCH better practice for your CE
+
+Because now you’re covering:
+
+ArrayList<Integer>
+ArrayList<String>
+LinkedList<Integer>
+LinkedList<String>
+        ↓
+String methods
+        ↓
+charAt()
+substring()
+length()
+equals()
+equalsIgnoreCase()
+startsWith()
+toUpperCase()
+toLowerCase()
+StringBuilder
+        ↓
+parallel ArrayLists
+        ↓
+conditional filtering
+        ↓
+nested logic
+        ↓
+multiple data structures
+
+And Q4, Q6, Q8, Q11, Q12 are especially worth mastering because they’re not just “use this ArrayList method” questions.
+
+🎯 My recommendation
+
+Don’t solve all 12 randomly.
+
+Do:
+
+Q1 → Q2 → Q3 → Q4 → Q5 → Q6 → Q7 → Q8 → Q9 → Q10 → Q11 → Q12
+
+And send me one at a time, exactly like before. I’ll check your code against edge cases/hidden tests rather than immediately giving you the solution.
