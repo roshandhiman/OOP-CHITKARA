@@ -1,6 +1,30 @@
+<div align="center">
+
+```
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣀⣤⣤⣶⣶⣶⣶⣤⣤⣀⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⢀⣴⣾⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣷⣄⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⣴⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣦⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⣼⣿⣿⣿⣿⣿⡿⠿⠛⠛⠛⠛⠿⢿⣿⣿⣿⣿⣿⣿⣧⠀⠀⠀⠀⠀
+⠀⠀⠀⢸⣿⣿⣿⡿⠋⠁⠀⠀⠀⠀⠀⠀⠀⠀⠈⠙⢿⣿⣿⣿⣿⡄⠀⠀⠀⠀
+⠀⠀⠀⣿⣿⣿⡟⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⣿⣿⣿⣿⡇⠀⠀⠀⠀
+⠀⠀⢰⣿⣿⣿⠃⠀⠀⣠⣶⠿⠿⠿⠿⠿⢷⣄⠀⠀⠀⢹⣿⣿⣿⡇⠀⠀⠀⠀
+⠀⠀⢸⣿⣿⣿⠀⠀⢸⣿⣷⠀⠀⠀⠀⠀⢸⣿⣧⠀⠀⢸⣿⣿⣿⡇⠀⠀⠀⠀
+⠀⠀⢸⣿⣿⣿⡄⠀⠘⠛⠁⠀⣀⣀⣀⠀⠀⠛⠋⠀⠀⣸⣿⣿⣿⠇⠀⠀⠀⠀
+⠀⠀⠀⣿⣿⣿⣿⡄⠀⠀⠀⠀⠉⠉⠉⠀⠀⠀⠀⢀⣾⣿⣿⣿⣿⠀⠀⠀⠀⠀
+⠀⠀⠀⢹⣿⣿⣿⣿⣦⡀⠀⠀⠀⠀⠀⠀⠀⠀⣠⣾⣿⣿⣿⣿⡏⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⢿⣿⣿⣿⣿⣿⣦⣄⣀⣀⣀⣀⣤⣾⣿⣿⣿⣿⣿⡿⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠻⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠟⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠈⠛⢿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠿⠋⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠉⠙⠛⠛⠛⠛⠛⠋⠉⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+```
+
 # ☕ OOP in Java — Chitkara University
 
-> Java programs covering core **Object-Oriented Programming** concepts, built during coursework at Chitkara University. New questions are added regularly.
+*me opening my own repo at 2am trying to remember what I coded* 🐸
+
+</div>
+
+> Java programs covering core **Object-Oriented Programming** concepts, built during coursework at Chitkara University. New questions are added regularly. *(yes i will pass. maybe. probably. idk.)*
 
 ---
 
