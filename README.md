@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://media1.tenor.com/m/d5tJgrpZTZoAAAAd/snek-cardano.gif" width="200"/>
+<img src="https://media1.tenor.com/m/d5tJgrpZTZoAAAAd/snek-cardano.gif" width="590"/>
 
 # ☕ OOP in Java — Chitkara University
 
