@@ -23,24 +23,3 @@
 | 13 | File Handling | `CE3/File Handling/` |
 
 ---
-
-## 🚀 How to Run
-
-```bash
-# Compile
-javac FileName.java
-
-# Run
-java FileName
-```
-
-> Requires **JDK 8+**
-
----
-
-## 👤 Author
-
-**Roshan Preet Singh Dhiman**  
-B.E. CSE — Chitkara University  
-GitHub: [@roshandhiman](https://github.com/roshandhiman)
-
