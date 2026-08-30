@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://i.imgur.com/3Z20bhH.gif" width="200"/>
+<div class="tenor-gif-embed" data-postid="5162432509810910022" data-share-method="host" data-aspect-ratio="1.0081" data-width="100%"><a href="https://tenor.com/view/ascii-pepe-ascii-pepe-ascii-feels-ascii-man-gif-5162432509810910022">Ascii Pepe Pepe Ascii GIF</a>from <a href="https://tenor.com/search/ascii+pepe-gifs">Ascii Pepe GIFs</a></div> <script type="text/javascript" async src="https://tenor.com/embed.js"></script>
 
 # ☕ OOP in Java — Chitkara University
 
