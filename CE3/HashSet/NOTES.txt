@@ -1,0 +1,34 @@
+1. HashSet Overview
+- Stores UNIQUE elements (no duplicates).
+- NO guaranteed order.
+- NO index (cannot use get(), set(), or add(index, value)).
+
+2. Input & Traversal
+import java.util.*;
+public class A {
+    public static void main(String[] args) {
+        Scanner sc=new Scanner(System.in);
+        int n=sc.nextInt();
+        HashSet<Integer> a=new HashSet<>();
+        for(int i=0;i<n;i++) {
+            a.add(sc.nextInt());
+        }
+        for(Integer num : a) {
+            System.out.println(num);
+        }
+    }
+}
+
+3. Methods
+- add(value): returns true if added, false if already exists (duplicate detection).
+- contains(value): returns true/false.
+- remove(value): removes the element.
+- size(), isEmpty(), clear().
+
+4. Duplicate Detection Example
+for(int i=0;i<n;i++) {
+    int num=sc.nextInt();
+    if(!set.add(num)) {
+        System.out.println(num+" is duplicate");
+    }
+}
